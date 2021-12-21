@@ -1,0 +1,79 @@
+.App {
+  width: 100% !important;
+  height: 100vmin;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  margin: auto;
+  width: 50vmin;
+  height: 60vmin;
+  aspect-ratio: 1 / 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Card2 {
+  margin: auto;
+  width: 50vmin;
+  height: 60vmin;
+  aspect-ratio: 1 / 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Header {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.Subheader {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+
+.Input {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  text-align: center;
+}
+
+.Button {
+  background-color: lightblue;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ButtonText {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.ErrorDiv {
+  background-color: red;
+  width: 80%;
+  color: white;
+  border-radius: 15px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ErrorText {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
